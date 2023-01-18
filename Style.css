@@ -1,0 +1,182 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+
+.h2
+{
+    font-style: oblique italic;
+        background-color: rgb(166, 165, 177);
+        font-size: 2.0rem;
+        padding: 20px;
+        justify-content: left;
+        text-align: left;
+}
+
+#block
+{
+    justify-content: center;
+        align-items: center;
+}
+
+/* Custom style */
+
+.main-head {
+    height: 100px;
+    background: #FFF;
+
+}
+
+.main {
+    padding: 90px;
+}
+
+
+@media screen and (min-width: 768px) {
+    .main {
+        margin: 0%;
+    }
+
+}
+
+.login-main-text {
+    padding: 50px;
+    color: #fff;
+}
+
+.login-main-text h2 {
+    font-weight: 300;
+}
+
+.btn-black {
+    background-color: #000 !important;
+    color: #fff;
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px;
+    align-items: center;
+    overflow: hidden;
+    background: url('img.jpg') no-repeat center center/cover;
+}
+
+.btn {
+    height: 60px;
+    width: 200px;
+    margin: 50px 100px;
+    background-color: rgb(36, 10, 150);
+    color: rgb(136, 243, 13);
+    border: 10px black;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Red Hat Mono', monospace;
+
+}
+
+.btn:hover,
+.but:active {
+    background-color: black;
+    text-decoration: underline;
+}
+
+
+.Container {
+        background-color: white;
+    margin: 10px;
+}
+
+#head {
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.h1 {
+    font-style: oblique italic;
+        background-color: rgb(166, 165, 177);
+    font-size: 2.5rem;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+}
+/* footer */
+
+footer {
+
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 5px 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+
+    /* For mobile phones: */
+    #header {
+        /* display: flex; */
+
+        height: 100vh;
+
+    }
+
+    .h1 {
+        font-size: 1.5em;
+        padding: .5em;
+        justify-content: center;
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+
+    #buttons::before {
+        background: #667db6;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    }
+
+    #head::before {
+
+        background: #8E2DE2;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #4A00E0, #8E2DE2);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    }
+}
+
+@media (min-width: 768px) {
+    #buttons {
+        display: flex;
+        flex-direction: row;
+        padding: 20px 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #buttons::before {
+        content: "";
+        display: flex;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+        opacity: 0.6;
+        top: 0px;
+        left: 0px;
+    }
+
+}
