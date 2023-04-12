@@ -26,11 +26,11 @@
     </nav>
 
 <section id="head">
-    <h1 class="h1"> Sign In Page </h>
+    <h1 class="h1"> Sign In Page </h1>
 </section>
 
 <script>
-    var key = "yharoon";
+    var key = "";
 
     function my_submit(curr) {
         var info = document.getElementById("name").value;
